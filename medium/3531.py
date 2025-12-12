@@ -1,5 +1,5 @@
 class Solution:
-    def countCoveredBuildings(self, n: int, buildings: List[List[int]]) -> int:
+    def countCoveredBuildings(self, n: int, buildings) -> int:
         max_row=[0]*(n+1)
         min_row=[n+1]*(n+1)
         max_col=[0]*(n+1)
